@@ -2,7 +2,7 @@ package com.hld.myandroidproxy.test
 
 import com.hld.proxy.Proxy
 
-//@Proxy
+@Proxy
 open class TestKoltinBean {
     private var name:String?=null
 

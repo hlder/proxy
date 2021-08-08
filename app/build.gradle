@@ -45,15 +45,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 
-//    implementation 'com.squareup:javapoet:1.13.0'
-
 //    implementation 'io.github.yuanfen7650:proxy:1.0.1'
-//    annotationProcessor 'io.github.yuanfen7650:proxy-compiler:1.0.1'
 //    kapt 'io.github.yuanfen7650:proxy-compiler:1.0.1'
 
 
     implementation project(":proxy")
-    annotationProcessor project(":proxy-compiler")
     kapt project(":proxy-compiler")
 
 
