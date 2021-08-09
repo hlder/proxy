@@ -122,7 +122,8 @@ publishing {
                 }
                 withXml {
                     def dependenciesNode = asNode().appendNode('dependencies')
-                    configurations.api.allDependencies.each { dependency ->
+                    System.out.println("==========>>>> ${configurations.implementation.allDependencies}")
+                    configurations.implementation.allDependencies.each { dependency ->
                         if (!dependency.hasProperty('dependencyProject')) {
                             def dependencyNode = dependenciesNode.appendNode('dependency')
                             dependencyNode.appendNode('groupId', dependency.group)

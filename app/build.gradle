@@ -45,12 +45,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 
-//    implementation 'io.github.yuanfen7650:proxy:1.0.1'
-//    kapt 'io.github.yuanfen7650:proxy-compiler:1.0.1'
+    implementation 'io.github.hlder.proxy:proxy:1.0.2'
+    kapt 'io.github.hlder.proxy:proxy-compiler:1.0.2'
 
-
-    implementation project(":proxy")
-    kapt project(":proxy-compiler")
+//    implementation project(":proxy")
+//    kapt project(":proxy-compiler")
 
 
 }
